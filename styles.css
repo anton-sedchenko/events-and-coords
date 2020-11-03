@@ -1,0 +1,153 @@
+/*Task1*/
+
+#task1 {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+#table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+  background-color: white;
+}
+
+/* Task 2 */
+
+#task2 {
+  padding-top: 40px;
+}
+
+.container {
+  max-width: 400px;
+  min-height: 160px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tel-form {
+  background-color: white;
+  padding: 0 15px;
+  height: 40px;
+  width: 100%;
+  border: 1px solid black;
+  margin-right: 15px;
+  font-size: 16px;
+}
+
+.button {
+  padding: 0 15px;
+}
+
+.form-action {
+  height: auto;
+  font-size: 16px;
+}
+
+.errMessage {
+  height: 100px;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  background-color: #FF8080;
+  border: 1px solid grey;
+  margin-bottom: 15px;
+}
+
+.succsessMessage {
+  height: 60px;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  background-color: #008000;
+  border: 1px solid grey;
+  margin-bottom: 15px;
+}
+
+.hide {
+  display: none;
+}
+
+/*Task3*/
+
+#task3 {
+  padding-top: 40px;
+}
+
+.score-container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bball-container {
+  width: 600px;
+  height: 330px;
+  margin: 0 auto;
+  background-image: url('assets/court.png');
+  background-size: cover;
+  position: relative;
+}
+
+.ball {
+  background-image: url('assets/ball.png');
+  background-size: cover;
+  position: absolute;
+  top: 145px;
+  left: 287px;
+  width: 40px;
+  height: 40px;
+  transition: 1s all;
+}
+
+.team-a {
+  position: absolute;
+  top: 156px;
+  left: 33px;
+  width: 15px;
+  height: 15px;
+}
+
+.team-b {
+  position: absolute;
+  top: 156px;
+  right: 20px;
+  width: 15px;
+  height: 15px;
+}
+
+.goalTeam {
+  font-weight: bold;
+  padding-top: 30px;
+  font-size: 22px;
+}

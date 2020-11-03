@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Homework 15 - JS DOM Events</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="task1">
+    <table id="table">
+      <tr>
+        <td class="first-cell cell">Cell</td>
+        <td class="cell">Cell</td>
+        <td class="cell">Cell</td>
+      </tr>
+      <tr>
+        <td class="first-cell cell">Cell</td>
+        <td class="cell">Cell</td>
+        <td class="special-cell cell">Special Cell</td>
+      </tr>
+      <tr>
+        <td class="first-cell cell">Cell</td>
+        <td class="cell">Cell</td>
+        <td class="cell">Cell</td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="task2">
+    <div class="container">
+      <div class="form-wrapper">
+        <div class="succsessMessage hide">
+          <span>Data was successfully sent</span>
+        </div>
+        <div class="errMessage hide">
+          <span>Type number does not follow format +380*********</span>
+        </div>
+        <form class="form" method="post" >
+          <input class="tel-form" type="tel" name="tel" size="40" placeholder="Type phone number in format +380*********">
+          <button class="button form-action" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="task3">
+    <div class="bball-container">
+      <div class="team-a"></div>
+      <div class="team-b"></div>
+      <div class="ball">
+      </div>
+    </div>
+    <div class="score-container"> 
+      <div>
+        <p>Team A: <span class="a-team-score"></span></p>
+      </div>
+      <div class="goalTeam">
+      </div>
+      <div>
+        <p>Team B: <span class="b-team-score"></span></p>
+      </div>
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
