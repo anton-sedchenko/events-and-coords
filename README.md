@@ -1,5 +1,6 @@
 # events-and-coords
 training browser events and coordinates
+https://anton-sedchenko.github.io/events-and-coords/
 
 Task#1
 Write all of the tasks inside the index.js and an index.html file. For each task, you should create HTML template. Template for each task should be available in index.html file 
